@@ -44,11 +44,28 @@ main{
 }
 
 footer{
-    padding: 20px;
     width: 100%;
-    height: 200px;
     background-color: #FFEA39;
+    padding-top: 2px;
+    p{
+        margin: 20px;
+    }
     .footerwidth{
         width: 650px;
+    }
+    .redesSociales{
+        padding: 10px;
+        width: 100%;
+        background-color: #FFEA39;
+        ul{
+           display: flex;
+           flex-direction: row;
+           justify-content: flex-end;
+           align-items: flex-end;
+           li{
+            padding: 10px;
+            list-style-type: none;
+           };
+        }
     }
 }

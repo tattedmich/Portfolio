@@ -63,9 +63,22 @@ main {
       width: 900px; }
 
 footer {
-  padding: 20px;
   width: 100%;
-  height: 200px;
-  background-color: #FFEA39; }
+  background-color: #FFEA39;
+  padding-top: 2px; }
+  footer p {
+    margin: 20px; }
   footer .footerwidth {
     width: 650px; }
+  footer .redesSociales {
+    padding: 10px;
+    width: 100%;
+    background-color: #FFEA39; }
+    footer .redesSociales ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-end; }
+      footer .redesSociales ul li {
+        padding: 10px;
+        list-style-type: none; }
