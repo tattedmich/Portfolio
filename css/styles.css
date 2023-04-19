@@ -22,6 +22,8 @@
 
 header {
   margin: 40px; }
+  header a:hover {
+    font-weight: bold; }
 
 main {
   background-image: url(../img/Main_Background.svg);
