@@ -1,75 +1,59 @@
-header{
-    margin: 40px;
-}
-
 .montserrat18 {
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-}
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif; }
+
 .montserrat30 {
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif; }
 
 .poppins40 {
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-}
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif; }
+
 .poppins60 {
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-}
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold; }
 
 .poppins80 {
-    font-size: 80px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-}
+  font-size: 80px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold; }
 
-.network img{
-    width: 40px;
-    height: 40px;
-    opacity: 75%;
-}
+header {
+  margin: 40px; }
 
-main{
-    background-image: url(../img/Main_Background.svg);
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: cover;
-    padding: 10px;
-    height: 900px
-}
+main {
+  background-image: url(../img/Main_Background.svg);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
+  padding: 10px;
+  height: 900px; }
 
-.Intro{
-    height: 600px;
-    padding: 20px;
-}
-.Introduction{
-    margin-left: 150px;
-    line-height: 5rem;
-}
+.Intro {
+  height: 600px;
+  padding: 20px; }
 
-.IntroductionInfo{
-    margin-left: 150px;
-    width: 600px;
-}
+.Introduction {
+  margin-left: 150px;
+  line-height: 5rem; }
 
-.Products{
-    margin-left: 150px;
-    list-style: none;
-}
+.IntroductionInfo {
+  margin-left: 150px;
+  width: 600px; }
 
-.coder{
-    padding-top: 30px;
-    margin-left: 150px;
-    width: 900px;
-}
+.Products {
+  margin-left: 150px;
+  list-style: none; }
 
-footer{
-    padding: 20px;
-    width: 100%;
-    height: 200px;
-    background-color: #FFEA39;
-}
+.coder {
+  padding-top: 30px;
+  margin-left: 150px;
+  width: 900px; }
+
+footer {
+  padding: 20px;
+  width: 100%;
+  height: 200px;
+  background-color: #FFEA39; }
