@@ -13,33 +13,31 @@ main{
     background-attachment: local;
     background-size: cover;
     padding: 10px;
-    height: 900px
-}
-
-.Intro{
+    height: 900px;
+    .Intro{
     height: 600px;
     padding: 20px;
-}
-.Introduction{
-    margin-left: 150px;
-    line-height: 5rem;
+        .Introduction{
+        margin-left: 150px;
+        line-height: 5rem;
+        }
+        .IntroductionInfo{
+        margin-left: 150px;
+        width: 600px;
+        }
+        .Products{
+        margin-left: 150px;
+        list-style: none;
+        }
+        .coder{
+        padding-top: 30px;
+        margin-left: 150px;
+        width: 900px;
+        }
+    }
 }
 
-.IntroductionInfo{
-    margin-left: 150px;
-    width: 600px;
-}
 
-.Products{
-    margin-left: 150px;
-    list-style: none;
-}
-
-.coder{
-    padding-top: 30px;
-    margin-left: 150px;
-    width: 900px;
-}
 
 footer{
     padding: 20px;

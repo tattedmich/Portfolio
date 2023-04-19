@@ -30,27 +30,22 @@ main {
   background-size: cover;
   padding: 10px;
   height: 900px; }
-
-.Intro {
-  height: 600px;
-  padding: 20px; }
-
-.Introduction {
-  margin-left: 150px;
-  line-height: 5rem; }
-
-.IntroductionInfo {
-  margin-left: 150px;
-  width: 600px; }
-
-.Products {
-  margin-left: 150px;
-  list-style: none; }
-
-.coder {
-  padding-top: 30px;
-  margin-left: 150px;
-  width: 900px; }
+  main .Intro {
+    height: 600px;
+    padding: 20px; }
+    main .Intro .Introduction {
+      margin-left: 150px;
+      line-height: 5rem; }
+    main .Intro .IntroductionInfo {
+      margin-left: 150px;
+      width: 600px; }
+    main .Intro .Products {
+      margin-left: 150px;
+      list-style: none; }
+    main .Intro .coder {
+      padding-top: 30px;
+      margin-left: 150px;
+      width: 900px; }
 
 footer {
   padding: 20px;
