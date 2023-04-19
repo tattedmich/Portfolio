@@ -50,6 +50,29 @@
   height: 790px; }
   .products .sangria {
     margin-left: 15%; }
+  .products .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas: "card1 card2 card3 card4" "card5 card6 card7 card8"; }
+    .products .container .card1 {
+      grid-area: card1; }
+    .products .container .card2 {
+      grid-area: card2; }
+    .products .container .card3 {
+      grid-area: card3; }
+    .products .container .card4 {
+      grid-area: card4; }
+    .products .container .card5 {
+      grid-area: card5; }
+    .products .container .card6 {
+      grid-area: card6; }
+    .products .container .card7 {
+      grid-area: card7; }
+    .products .container .card8 {
+      grid-area: card8; }
 
 .about {
   background-image: url(../img/Background_AboutPage.svg);
