@@ -10,6 +10,10 @@
   font-size: 16px;
   font-family: 'Poppins', sans-serif; }
 
+.poppins18 {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif; }
+
 .poppins20 {
   font-size: 20px;
   font-family: 'Poppins', sans-serif; }
@@ -23,6 +27,11 @@
   font-size: 40px;
   font-family: 'Poppins', sans-serif; }
 
+.poppins40b {
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold; }
+
 .poppins60 {
   font-size: 60px;
   font-family: 'Poppins', sans-serif;
@@ -33,31 +42,52 @@
   font-family: 'Poppins', sans-serif;
   font-weight: bold; }
 
+.products {
+  background-image: url(../img/Background_ProductPage.svg);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: auto;
+  height: 790px; }
+  .products .sangria {
+    margin-left: 15%; }
+
+.about {
+  background-image: url(../img/Background_AboutPage.svg);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: auto;
+  height: 790px; }
+  .about .textAboutUs {
+    margin-left: 25%;
+    margin-right: 20%;
+    text-align: justify;
+    padding-top: 175px; }
+
 header {
   margin: 40px; }
   header a:hover {
     font-weight: bold; }
 
-main {
+.home {
   background-image: url(../img/Main_Background.svg);
   background-repeat: no-repeat;
   background-attachment: local;
   background-size: cover;
   padding: 10px;
   height: 900px; }
-  main .Intro {
+  .home .Intro {
     height: 600px;
     padding: 20px; }
-    main .Intro .Introduction {
+    .home .Intro .Introduction {
       margin-left: 150px;
       line-height: 5rem; }
-    main .Intro .IntroductionInfo {
+    .home .Intro .IntroductionInfo {
       margin-left: 150px;
       width: 600px; }
-    main .Intro .Products {
+    .home .Intro .Products {
       margin-left: 150px;
       list-style: none; }
-    main .Intro .coder {
+    .home .Intro .coder {
       padding-top: 30px;
       margin-left: 150px;
       width: 900px; }
@@ -72,6 +102,7 @@ footer {
     width: 650px; }
   footer .redesSociales {
     padding: 10px;
+    padding-right: 3%;
     width: 100%;
     background-color: #FFEA39; }
     footer .redesSociales ul {

@@ -13,7 +13,7 @@ header{
     
 }
 
-main{
+.home{
     background-image: url(../img/Main_Background.svg);
     background-repeat: no-repeat;
     background-attachment: local;
@@ -55,6 +55,7 @@ footer{
     }
     .redesSociales{
         padding: 10px;
+        padding-right: 3%;
         width: 100%;
         background-color: #FFEA39;
         ul{
