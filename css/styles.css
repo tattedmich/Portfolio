@@ -28,6 +28,12 @@
   font-family: 'Poppins', sans-serif;
   font-weight: bold; }
 
+.poppins30blue {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #505CFC; }
+
 .poppins40 {
   font-size: 40px;
   font-family: 'Poppins', sans-serif; }
@@ -149,23 +155,20 @@
     text-align: justify;
     padding-top: 175px; }
 
-header .network img {
-  width: 50px;
-  height: 50px;
-  opacity: 70%;
-  border-radius: 50%;
-  border: 5px solid #505CFC;
-  padding: 3px; }
+.mainBag {
+  background-image: url(../img/Bag_BG.svg);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: auto; }
 
 .shoppingBagItems {
-  height: 1000px; }
+  height: 700px; }
   .shoppingBagItems .sangria {
     margin-left: 15%; }
 
 .shoppingBagInfo {
   width: 850px;
   height: 250px;
-  border: 0.75px solid #FBB8E3;
   padding-right: 60px;
   margin-left: 20%;
   margin-right: 20%;
@@ -184,9 +187,6 @@ header .network img {
     text-align: justify;
     align-self: center;
     justify-self: center; }
-
-.separadorEspacios {
-  height: 50px; }
 
 header {
   margin: 40px; }

@@ -1,19 +1,12 @@
-header{
-    .network{
-        img{
-            width: 50px;
-            height: 50px;
-
-            opacity: 70%;
-            border-radius: 50%;
-            border: 5px solid #505CFC;
-            padding: 3px;
-        }  
-    }
+.mainBag{
+    background-image: url(../img/Bag_BG.svg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size:auto;
 }
 
 .shoppingBagItems{
-    height: 1000px;
+    height: 700px;
     .sangria{
         margin-left: 15%;
     }
@@ -22,7 +15,6 @@ header{
 .shoppingBagInfo{
     width: 850px;
     height: 250px;
-    border: 0.75px solid #FBB8E3;
     padding-right: 60px;;
     margin-left: 20%;
     margin-right: 20%;
@@ -45,7 +37,4 @@ header{
         justify-self: center;
     }
 
-}
-.separadorEspacios{
-    height: 50px;
 }
