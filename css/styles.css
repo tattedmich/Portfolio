@@ -28,6 +28,10 @@
   font-family: 'Poppins', sans-serif;
   font-weight: bold; }
 
+.poppins32 {
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif; }
+
 .poppins30blue {
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
@@ -41,7 +45,8 @@
 .poppins40b {
   font-size: 40px;
   font-family: 'Poppins', sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  color: black; }
 
 .poppins60 {
   font-size: 60px;
@@ -57,97 +62,98 @@
   background-image: url(../img/Background_ProductPage.svg);
   background-repeat: no-repeat;
   background-attachment: local;
-  background-size: auto;
+  background-size: cover;
   height: 790px; }
-  .products .sangria {
-    margin-left: 15%; }
-  .products .container {
-    margin-top: 50px;
-    margin-left: 6%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 100px 20px;
-    grid-auto-flow: row;
-    grid-template-areas: "card1 card2 card3 card4" "card5 card6 card7 card8"; }
-    .products .container .card1 {
-      grid-area: card1;
-      text-align: center;
-      padding: 25px;
-      width: 238px;
-      height: 268px;
-      background-color: #D9D9D9;
-      border: 1px solid #D9D9D9;
-      border-radius: 20%; }
-    .products .container .card2 {
-      grid-area: card2;
-      text-align: center;
-      padding: 25px;
-      width: 238px;
-      height: 268px;
-      background-color: #D9D9D9;
-      border: 1px solid #D9D9D9;
-      border-radius: 20%; }
-    .products .container .card3 {
-      grid-area: card3;
-      text-align: center;
-      padding: 25px;
-      width: 238px;
-      height: 268px;
-      background-color: #D9D9D9;
-      border: 1px solid #D9D9D9;
-      border-radius: 20%; }
-    .products .container .card4 {
-      grid-area: card4;
-      text-align: center;
-      padding: 25px;
-      width: 238px;
-      height: 268px;
-      background-color: #D9D9D9;
-      border: 1px solid #D9D9D9;
-      border-radius: 20%; }
-    .products .container .card5 {
-      grid-area: card5;
-      text-align: center;
-      padding: 25px;
-      width: 238px;
-      height: 268px;
-      background-color: #D9D9D9;
-      border: 1px solid #D9D9D9;
-      border-radius: 20%; }
-    .products .container .card6 {
-      grid-area: card6;
-      text-align: center;
-      padding: 25px;
-      width: 238px;
-      height: 268px;
-      background-color: #D9D9D9;
-      border: 1px solid #D9D9D9;
-      border-radius: 20%; }
-    .products .container .card7 {
-      grid-area: card7;
-      text-align: center;
-      padding: 25px;
-      width: 238px;
-      height: 268px;
-      background-color: #D9D9D9;
-      border: 1px solid #D9D9D9;
-      border-radius: 20%; }
-    .products .container .card8 {
-      grid-area: card8;
-      text-align: center;
-      padding: 25px;
-      width: 238px;
-      height: 268px;
-      background-color: #D9D9D9;
-      border: 1px solid #D9D9D9;
-      border-radius: 20%; }
+
+.sangria {
+  margin-left: 15%; }
+
+.container {
+  margin-top: 50px;
+  margin-left: 6%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 100px 20px;
+  grid-auto-flow: row;
+  grid-template-areas: "card1 card2 card3 card4" "card5 card6 card7 card8"; }
+  .container .card1 {
+    grid-area: card1;
+    text-align: center;
+    padding: 25px;
+    width: 238px;
+    height: 268px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 20%; }
+  .container .card2 {
+    grid-area: card2;
+    text-align: center;
+    padding: 25px;
+    width: 238px;
+    height: 268px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 20%; }
+  .container .card3 {
+    grid-area: card3;
+    text-align: center;
+    padding: 25px;
+    width: 238px;
+    height: 268px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 20%; }
+  .container .card4 {
+    grid-area: card4;
+    text-align: center;
+    padding: 25px;
+    width: 238px;
+    height: 268px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 20%; }
+  .container .card5 {
+    grid-area: card5;
+    text-align: center;
+    padding: 25px;
+    width: 238px;
+    height: 268px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 20%; }
+  .container .card6 {
+    grid-area: card6;
+    text-align: center;
+    padding: 25px;
+    width: 238px;
+    height: 268px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 20%; }
+  .container .card7 {
+    grid-area: card7;
+    text-align: center;
+    padding: 25px;
+    width: 238px;
+    height: 268px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 20%; }
+  .container .card8 {
+    grid-area: card8;
+    text-align: center;
+    padding: 25px;
+    width: 238px;
+    height: 268px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 20%; }
 
 .about {
   background-image: url(../img/Background_AboutPage.svg);
   background-repeat: no-repeat;
-  background-attachment: local;
-  background-size: auto;
+  background-size: cover;
   height: 790px; }
   .about .textAboutUs {
     margin-left: 25%;
@@ -188,6 +194,17 @@
     align-self: center;
     justify-self: center; }
 
+.form {
+  background-image: url(../img/Form_BG.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 405px;
+  padding: 10px; }
+  .form .formInside {
+    margin-left: 25%;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif; }
+
 header {
   margin: 40px; }
   header a:hover {
@@ -199,7 +216,7 @@ header {
   background-attachment: local;
   background-size: cover;
   padding: 10px;
-  height: 900px; }
+  height: 600px; }
   .home .Intro {
     height: 600px;
     padding: 20px; }
@@ -215,7 +232,10 @@ header {
     .home .Intro .coder {
       padding-top: 30px;
       margin-left: 150px;
-      width: 900px; }
+      width: 600px; }
+    .home .Intro .contact {
+      padding-top: 20px;
+      margin-left: 140px; }
 
 footer {
   width: 100%;

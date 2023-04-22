@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Contact Form | Mich Liñares</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar sticky-top navbar-expand-lg bg-body-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <img src="../img/Logo_Mich_Coder.svg" alt="Logo_Mich_Coder">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center navegacion" id="navbarCenteredExample">
+                <ul class="navbar-nav mb-2 mb-lg-0 montserrat30">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./about.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./products.html">Products</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./shoppingBag.html">
+                            <img src="../img/ShoppingBagIcon.svg" alt="yourShoppingBag">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+          </nav>
+    </header>
+    <main class="form">
+        <form class="w-50 formInside">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="First and Last name">
+                <label for="floatingInput">First and last name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating w-50">
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                    <option selected disabled>Gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Non-Binary</option>
+                    <option value="4">Gender fluid</option>
+                    <option value="5">Prefer not to say</option>
+                </select>
+                <label for="floatingSelect">Select your Gender</label>
+            </div>
+            <div class="col-12 p-1">
+                <button class="btn btn-dark" type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p class="poppins16 footerwidth">👀 Make sure to support growing artists and developers. We are really nice humans with less money and more bags under our eyes.  👀</p>
+        <div class="redesSociales">
+            <ul>
+                <li>
+                    <a aria-current="page" href="https://www.instagram.com/tattedmich/" target="_blank">
+                        <img src="../img/Instagram_Icon.svg" alt="Instagram_Link_Mich">
+                    </a>
+                </li>
+                <li>
+                    <a aria-current="page" href="https://www.tiktok.com/@tattedmich" target="_blank">
+                        <img src="../img/TikTok_SVG.svg" alt="TikTok_Link_Mich">
+                    </a>
+                </li>
+                <li>
+                    <a aria-current="page" href="https://twitter.com/tattedmich" target="_blank">
+                        <img src="../img/Twitter_SVG.svg" alt="Twitter_Link_Mich">
+                    </a>
+                </li>
+                <li>
+                    <a aria-current="page" href="https://github.com/tattedmich" target="_blank">
+                        <img src="../img/Github_Icon.svg" alt="Github_Link_Mich">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>

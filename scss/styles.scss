@@ -2,6 +2,7 @@
 @import"products";
 @import"about";
 @import"shoppingBag";
+@import"form";
 
 
 header{
@@ -17,7 +18,7 @@ header{
     background-attachment: local;
     background-size: cover;
     padding: 10px;
-    height: 900px;
+    height: 600px;
     .Intro{
     height: 600px;
     padding: 20px;
@@ -36,7 +37,11 @@ header{
         .coder{
         padding-top: 30px;
         margin-left: 150px;
-        width: 900px;
+        width: 600px;
+        }
+        .contact{
+        padding-top: 20px;
+        margin-left: 140px;  
         }
     }
 }
