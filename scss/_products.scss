@@ -1,13 +1,16 @@
 
-
 .products{
     background-image: url(../img/Background_ProductPage.svg);
     background-repeat: no-repeat;
     background-attachment: local;
     background-size:auto;
     height: 790px;
+    }
     .sangria{
         margin-left: 15%;
+    }
+    .searchBar{
+        justify-self:flex-end;
     }
     .container{
         margin-top: 50px;
@@ -101,4 +104,3 @@
                 border-radius: 20%;
             }
     }
-}
