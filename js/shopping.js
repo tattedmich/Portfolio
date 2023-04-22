@@ -13,7 +13,7 @@ function setItemsOnCards(service){
 
 return `<div class="card">
             <p class="emoji">${service.image}
-            <h2 class="poppins30">${service.type}</h2>
+            <h2 class="poppins26">${service.type}</h2>
             <h3 class="poppins20">${service.amount}€</h3>
             <button type="button" class="btn btn-primary" id="${service.id}">Add To Bag</button>
         </div>`

@@ -23,6 +23,11 @@
   font-family: 'Poppins', sans-serif;
   font-weight: bold; }
 
+.poppins26 {
+  font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold; }
+
 .poppins30 {
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
@@ -53,8 +58,8 @@
   font-family: 'Poppins', sans-serif;
   font-weight: bold; }
 
-.poppins80 {
-  font-size: 80px;
+.poppins70 {
+  font-size: 70px;
   font-family: 'Poppins', sans-serif;
   font-weight: bold; }
 
@@ -68,17 +73,19 @@
 .sangria {
   margin-left: 15%; }
 
+.searchBar {
+  margin-left: 25%; }
+
 .container {
   margin-top: 50px;
   margin-left: 6%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 100px 20px;
+  gap: 60px 20px;
   grid-auto-flow: row;
   grid-template-areas: "card1 card2 card3 card4" "card5 card6 card7 card8"; }
-  .container .card1 {
-    grid-area: card1;
+  .container .card {
     text-align: center;
     padding: 25px;
     width: 238px;
@@ -86,69 +93,8 @@
     background-color: #D9D9D9;
     border: 1px solid #D9D9D9;
     border-radius: 20%; }
-  .container .card2 {
-    grid-area: card2;
-    text-align: center;
-    padding: 25px;
-    width: 238px;
-    height: 268px;
-    background-color: #D9D9D9;
-    border: 1px solid #D9D9D9;
-    border-radius: 20%; }
-  .container .card3 {
-    grid-area: card3;
-    text-align: center;
-    padding: 25px;
-    width: 238px;
-    height: 268px;
-    background-color: #D9D9D9;
-    border: 1px solid #D9D9D9;
-    border-radius: 20%; }
-  .container .card4 {
-    grid-area: card4;
-    text-align: center;
-    padding: 25px;
-    width: 238px;
-    height: 268px;
-    background-color: #D9D9D9;
-    border: 1px solid #D9D9D9;
-    border-radius: 20%; }
-  .container .card5 {
-    grid-area: card5;
-    text-align: center;
-    padding: 25px;
-    width: 238px;
-    height: 268px;
-    background-color: #D9D9D9;
-    border: 1px solid #D9D9D9;
-    border-radius: 20%; }
-  .container .card6 {
-    grid-area: card6;
-    text-align: center;
-    padding: 25px;
-    width: 238px;
-    height: 268px;
-    background-color: #D9D9D9;
-    border: 1px solid #D9D9D9;
-    border-radius: 20%; }
-  .container .card7 {
-    grid-area: card7;
-    text-align: center;
-    padding: 25px;
-    width: 238px;
-    height: 268px;
-    background-color: #D9D9D9;
-    border: 1px solid #D9D9D9;
-    border-radius: 20%; }
-  .container .card8 {
-    grid-area: card8;
-    text-align: center;
-    padding: 25px;
-    width: 238px;
-    height: 268px;
-    background-color: #D9D9D9;
-    border: 1px solid #D9D9D9;
-    border-radius: 20%; }
+    .container .card .emoji {
+      font-size: 50px; }
 
 .about {
   background-image: url(../img/Background_AboutPage.svg);
