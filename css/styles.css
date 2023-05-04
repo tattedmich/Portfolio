@@ -113,10 +113,16 @@
   background-attachment: local;
   background-size: auto; }
 
-.shoppingBagItems {
-  height: 700px; }
-  .shoppingBagItems .sangria {
+.shoppingBagHeader {
+  height: 150px; }
+  .shoppingBagHeader .sangria {
     margin-left: 15%; }
+
+.shoppingBagItems {
+  height: 300px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center; }
 
 .shoppingBagInfo {
   width: 850px;
