@@ -19,7 +19,7 @@ const setTableCheckout = (service) => {
     return  `<tr>
                 <td>${service.image}</td>
                 <td>${service.type}</td>
-                <td>${service.amount}</td>
+                <td>${service.amount}€</td>
                 <td><button id="${service.id}" class="button-outline">X</button></td>
             </tr>`
 }

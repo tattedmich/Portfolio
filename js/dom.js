@@ -17,7 +17,7 @@ async function getAsyncServices() {
 }
 
 function filterItems(valor){
-    let resultado = URL.filter(service => service.type.toLowerCase().includes(valor.toLowerCase()))
+    let resultado = services.filter(service => service.type.toLowerCase().includes(valor.toLowerCase()))
     if (resultado.length > 0){
         loadServices(resultado)
     }
@@ -37,12 +37,24 @@ const getButtonsActivated = () => {
                 let resultado = services.find(service => service.id === parseInt(e.target.id))
                 bag.push(resultado)
                 saveMyBag()
-                //notify()
+                notify()
             })
         }
 }
 
-
+function notify() {
+    Toastify({
+        text: "🛍 Your shopping bag is getting bigger! 🛍",
+        duration: 3000,
+        close: true,
+        gravity: "top", 
+        position: "center", 
+        stopOnFocus: true, 
+        style: {
+        background: "#505CFC",
+        }
+        }).showToast();
+}
 
 getAsyncServices()
 getBag()
