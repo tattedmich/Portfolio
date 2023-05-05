@@ -1,5 +1,5 @@
 const tbody = document.querySelector("tbody")
-const spanTotal = document.querySelector("span")
+const spanTotal = document.querySelector("span.totalito")
 const purchButton = document.querySelector("#purchButton")
 
 getBag()
@@ -8,8 +8,7 @@ loadBag()
 function loadBag(){
     tbody.innerHTML =""
     if (bag.length > 0) {
-        bag.forEach(service => tbody.innerHTML +=
-        setTableCheckout(service) )
+        bag.forEach(service => tbody.innerHTML += setTableCheckout(service) )
         getDeleteButtons()
         spanTotal.innerText = getTotalAmount().toLocaleString()
     } else {
@@ -19,7 +18,7 @@ function loadBag(){
 }
 
 function getTotalAmount(){
-    return bag.reduce((acc, producto) => acc + service.amount, 0)
+    return bag.reduce((acc, service) => acc + service.amount, 0)
 }
 
 function getDeleteButtons(){
@@ -40,7 +39,7 @@ function getDeleteButtons(){
 
 purchButton.addEventListener("click", ()=> {
     Swal.fire({
-        title: 'Confirm Purchase',
+        title: 'Purchase Confirmed!',
         icon: 'success',
         confirmButtonText: 'Accept'
         })

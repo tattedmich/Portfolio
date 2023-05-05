@@ -112,6 +112,8 @@
   background-repeat: no-repeat;
   background-attachment: local;
   background-size: auto; }
+  .mainBag .totalAmountBag {
+    text-align: center; }
 
 .shoppingBagHeader {
   height: 150px; }
@@ -119,7 +121,7 @@
     margin-left: 15%; }
 
 .shoppingBagItems {
-  height: 300px;
+  height: 220px;
   margin-left: 20%;
   margin-right: 20%;
   text-align: center; }

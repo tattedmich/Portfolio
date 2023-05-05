@@ -6,10 +6,10 @@
     <title>Your Shopping Bag | Mich</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <script src="../js/productsTemplates.js"></script>
     <script src="../js/storage.js"></script>
     <script defer src="../js/checkout.js"></script>
-    <script src="../js/dom.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,7 +57,7 @@
       <section class="shoppingBagHeader">
         <h1 class="poppins40b sangria">Shopping Bag</h1>
         <a href="./products.html">
-          <div class="d-grid col-4 mx-auto p-3">
+          <div class="d-grid col-2 mx-5 p-3">
             <button class="btn btn-primary" type="button">Back to Products</button>
           </div>
         </a>
@@ -78,9 +78,9 @@
         </table>
       </section>
       <div class="totalAmountBag">
-        <p>Total: <span>0.00</span>€</p>
+        <p>Total: <span class="totalito poppins20b">0.00</span>€</p>
       </div>
-      <div class="shopNowButton d-grid col-3 mx-auto p-3">
+      <div class="shopNowButton d-grid col-2 mx-auto p-3">
           <button class="btn btn-primary" id="purchButton" type="button">Confirm purchase</button>
       </div>
 

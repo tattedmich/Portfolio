@@ -1,5 +1,5 @@
 const saveMyBag = () => {
-    if (loadBag.length > 0) {
+    if (bag.length > 0) {
         localStorage.setItem("serviceBag", JSON.stringify(bag))
     }
 }

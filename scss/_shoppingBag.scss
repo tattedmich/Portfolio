@@ -3,6 +3,9 @@
     background-repeat: no-repeat;
     background-attachment: local;
     background-size:auto;
+    .totalAmountBag{
+        text-align: center;
+    }
 }
 
 .shoppingBagHeader{
@@ -13,7 +16,7 @@
 }
 
 .shoppingBagItems{
-    height: 300px;
+    height: 220px;
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;

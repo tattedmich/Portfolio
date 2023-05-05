@@ -1,6 +1,6 @@
 const setHTMLforProducts = (service) => {
     return `<div class="card">
-                <p class="emoji">${service.image}
+                <p class="emoji">${service.image}</p>
                 <h2 class="poppins26">${service.type}</h2>
                 <h3 class="poppins20">${service.amount}€</h3>
                 <button type="button" class="btn btn-primary add" id="${service.id}">Add To Bag</button>

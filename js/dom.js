@@ -2,9 +2,9 @@ const container = document.querySelector("div#container")
 const inputSearch = document.querySelector("input#inputSearch")
 const btnCheckout = document.querySelector("div.btn-checkout")
 const services = []
-const URL = './js/items.json'
+const URL = '../js/items.json'
 
-async function getAsyncServices(){
+async function getAsyncServices() {
     try {
         const response = await fetch(URL)
         const data = await response.json()
@@ -13,6 +13,13 @@ async function getAsyncServices(){
     } catch (error) {
         console.log(error)
         container.innerHTML = setErrorCard()
+    }
+}
+
+function filterItems(valor){
+    let resultado = URL.filter(service => service.type.toLowerCase().includes(valor.toLowerCase()))
+    if (resultado.length > 0){
+        loadServices(resultado)
     }
 }
 
@@ -30,24 +37,12 @@ const getButtonsActivated = () => {
                 let resultado = services.find(service => service.id === parseInt(e.target.id))
                 bag.push(resultado)
                 saveMyBag()
-                notify()
+                //notify()
             })
         }
 }
 
-function notify (){
-    Toastify({
-        text: "Your product has been added to your shopping bag",
-        duration: 3000,
-        close: true,
-        gravity: "top",
-        position: "right", 
-        stopOnFocus: true,
-        style: {
-            background: "linear-gradient(to right, #212529, #666666)",
-            },
-        }).showToast();
-}
+
 
 getAsyncServices()
 getBag()
